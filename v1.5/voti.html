@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voti Calcolatrice</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+</head>
+<body>
+
+<!-- Bottone per aprire o chiudere la calcolatrice -->
+<button id="calcolatrice-button" class="btn btn-primary" onclick="toggleCalculator()">Apri Calcolatrice</button>
+
+<!-- Div contenente la calcolatrice -->
+<div id="calculator-container" class="container mt-5 custom-container">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="display">0</div>
+      <div class="row">
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(1)">1</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(2)">2</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(3)">3</button></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(4)">4</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(5)">5</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(6)">6</button></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(7)">7</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(8)">8</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(9)">9</button></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="decrement()">-</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="setVoto(0)">0</button></div>
+        <div class="col-sm-4"><button class="btn btn-primary calculator-button" onclick="increment()">+</button></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <textarea id="motivazioneVoto" class="form-control custom-textarea" rows="5" placeholder="Motivazione del voto"></textarea>
+	    <select id="tipoEsame" class="form-control mb-3">
+        <optgroup label="Modalità">
+          <option selected disabled hidden>Modalità</option>
+          <option value="Orale">Orale</option>
+          <option value="Scritto">Scritto</option>
+          <option value="Pratico">Pratico</option>
+        </optgroup>
+      </select>
+      <select id="percentualeVoto" class="form-control">
+        <optgroup label="Peso">
+          <option selected disabled hidden>Peso</option>
+          <option value="25%">25%</option>
+          <option value="50%">50%</option>
+          <option value="75%">75%</option>
+          <option value="100%">100%</option>
+        </optgroup>
+      </select>
+      <button id="salva-button" class="btn btn-success mt-3" onclick="salvaVoto()">Salva</button>
+      <button id="esci-button" class="btn btn-danger mt-3 ml-2" onclick="toggleCalculator()">Esci</button>
+    </div>
+  </div>
+</div>
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+
+</body>
+</html>
+
