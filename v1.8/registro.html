@@ -88,11 +88,20 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       display: none;
     }
+
+    .hidden {
+      display: none;
+    }
+
+    #sezioneInserimentoVoti {
+      margin-top: 20px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Registro Elettronico</h1>
+    <h1>4^B INFORMATICA</h1>
     <table>
       <thead>
         <tr>
@@ -111,392 +120,835 @@
             <img src="https://via.placeholder.com/50" alt="Student Image">
             Mario Rossi
           </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>          
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="https://via.placeholder.com/50" alt="Student Image">
+            Mario Rossi
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+          </td>
         </tr>
 
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Sturniolo
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Dario Doccia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Moccia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Dario Sturniolo
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Enrico Maria Moia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Mario
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-           Enrica Mario Moia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Dario Moccia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Doccia Sturniolo
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Dario Dario
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Dario
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Dario Toccia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Maccio Dario
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Nacho Dalla
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Nacho
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Sturniolo Dariomario Moia
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Sturnodario
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Dario Sturnomario
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-        <tr>
-          <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Enrico Mario Dario Sturnialo
-          </td>
-          <td> <button class="btn btn-primary" onclick="toggleCalculator(this)">Apri Calcolatrice</button>
-            <div class="calculator-overlay">
-              <div class="calculator-container">
-                <div id="display">0</div>
-              </div>
-            </div></td>
-          <td><a href="voti.html">
-            <input type="button" value="Inserisci voto" />
-         </a></td>
-          <td>7.0</td>
-          <td>9.0</td>
-          <td>7.5</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-        </tr>
-
-        <!-- Aggiungi altre righe per gli altri studenti qui -->
+        <!-- Altre righe per gli altri studenti -->
       </tbody>
     </table>
   </div>
+
+  <script>
+
+
+    
+    // Script per gestire l'apertura del form
+    document.querySelectorAll(".apriInserimentoVoti").forEach(function(button) {
+      button.addEventListener("click", function() {
+        var cell = this.parentNode;
+        var form = cell.querySelector(".sezioneInserimentoVoti");
+        form.classList.toggle("hidden"); // Toggle la classe 'hidden' per mostrare/nascondere la sezione di inserimento
+      });
+    });
+  
+    // Associa l'evento di invio a ciascun formVoti separatamente
+    document.querySelectorAll(".formVoti").forEach(function(form) {
+      form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevenire il comportamento di default del form
+        var votoInserito = this.querySelector(".voto").value; // Ottenere il voto inserito dall'utente
+        var button = this.closest("td").querySelector(".apriInserimentoVoti"); // Trovare il pulsante corrispondente
+        // Validazione dell'input per assicurarsi che sia stato inserito un numero
+        if (votoInserito === "" || isNaN(votoInserito) || votoInserito < 0 || votoInserito > 10) {
+          alert("Per favore inserisci un voto valido tra 0.00 e 10.00.");
+          return; // Interrompere l'esecuzione se il voto non è valido
+        }
+        button.textContent = parseFloat(votoInserito).toFixed(2); // Aggiornare il testo del pulsante con il voto inserito
+        this.querySelector(".voto").value = ""; // Resetta il campo del voto dopo l'invio
+        var form = this.closest(".sezioneInserimentoVoti");
+        form.classList.add("hidden"); // Nascondere la sezione di inserimento dopo l'invio
+      });
+    });
+  </script>
 </body>
 </html>
