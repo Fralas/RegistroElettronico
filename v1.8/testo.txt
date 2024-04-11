@@ -1,11 +1,12 @@
-<tr>
+        <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak/wojak-nss-magazine-1.jpg" alt="Student Image">
+            Wojak Fumatore
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -52,17 +53,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\419510eb5468c2272789fdecf33e789a.jpg" alt="Student Image">
+            Wojak Donna
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -109,17 +111,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\ad06208a6f434895b2da44d08aaa3bb4.webp" alt="Student Image">
+            Wojak Nero
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -166,17 +169,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\avatars-2G9LMHIztqNKa8Y4-MMHZOw-t240x240.jpg" alt="Student Image">
+            Wojak Drogato
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -223,17 +227,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\c0f11864bb5d5cbb6a6bca6c80002414_fa60f5249267390b169fd8de5acdcc7b.webp" alt="Student Image">
+            Wojak Secchione
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -280,17 +285,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\channels4_profile.jpg" alt="Student Image">
+            Wojak Che Guevara
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -337,17 +343,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\images (1).png" alt="Student Image">
+            Wojak Patrick
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -394,17 +401,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\cppubpy8wio71.webp" alt="Student Image">
+            Wojak Moccia
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -451,17 +459,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\FytMLVgWIAENpDK.jpg" alt="Student Image">
+            Wojak Napoletano
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -508,17 +517,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\images.png" alt="Student Image">
+            Wojak Annegato
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -565,17 +575,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\make-you-or-your-pet-into-wojak.png" alt="Student Image">
+            Wojak Rimasto
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -622,17 +633,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\z9wp8a9ykvi81.png" alt="Student Image">
+            Wojak Pilota
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -679,17 +691,18 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>
         <tr>
           <td class="student-info">
-            <img src="https://via.placeholder.com/50" alt="Student Image">
-            Mario Rossi
+            <img src="Wojak\images.jpg" alt="Student Image">
+            Wojak Piange
           </td>
           <!-- Codice del nuovo pulsante e del form -->
           <td>
-            <button class="apriInserimentoVoti">Inserisci Ore Di Assenza</button>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
             <div class="sezioneInserimentoVoti hidden">
               <form class="formVoti">
                 <label for="voto">Ore:</label>
@@ -736,6 +749,354 @@
             </div>
           </td>
           <td>
-            <input class="note" type="text" class="note" id="noteInput" maxlength="34" placeholder="Inserisci note...">
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="Wojak\images (3).jpg" alt="Student Image">
+            Wojak Mr. Krabs
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="Wojak\bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg" alt="Student Image">
+            Wojak Gay
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="Wojak\flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Student Image">
+            Wojak Depresso
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="Wojak\happy_smug.png" alt="Student Image">
+            Wojak Felice
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="Wojak\0f698f674da5e8d607951e58a3742942.jpg" alt="Student Image">
+            Wojak Emo
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-info">
+            <img src="Wojak\7hu74rs3ajg91.webp" alt="Student Image">
+            Wojak Spongebob
+          </td>
+          <!-- Codice del nuovo pulsante e del form -->
+          <td>
+            <label for="opzione"></label>
+            <input type="checkbox" id="opzione" class="checkbox" name="opzione" value="valore_opzione">
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Ore:</label>
+                <input type="number" class="voto" min="0.00" max="8.00" step="1">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <!-- Fine codice del nuovo pulsante e del form -->
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td><button class="apriInserimentoVoti">Inserisci Voto</button>
+            <div class="sezioneInserimentoVoti hidden">
+              <form class="formVoti">
+                <label for="voto">Voto:</label>
+                <input type="number" class="voto" min="0.00" max="10.00" step="0.25">
+                <input type="submit" value="Invia">
+              </form>
+            </div>
+          </td>
+          <td>
+            <input class="note" type="text" class="note" id="noteInput" maxlength="100" placeholder="Inserisci note...">
           </td>
         </tr>

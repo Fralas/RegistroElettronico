@@ -18,6 +18,7 @@ body {
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   background-color: #add8e6;
+  border-radius: 3px;
 }
 
 .note {
@@ -31,20 +32,7 @@ body {
   padding: 0;
 }
 
-.container {
-  font-family: 'Roboto';
-  max-width: auto;
-  margin-left: 2.5vh;
-  margin-top: 2.5vh;
-  margin-right: 2.5vh;
-  margin-bottom: 2.5vh;
-  background: rgb(155,230,255);
-  background: linear-gradient(90deg, rgba(155,230,255,1) 0%, rgba(134,197,216,1) 50%, rgba(155,230,255,1) 100%);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  border: 2px solid #ddd;
-  border-radius: 15px;
-  padding: 2vh;
-}
+
 
 h1 {
   text-align: center;
@@ -114,49 +102,45 @@ tr:nth-child(odd) {
 }
 
 #sezioneInserimentoVoti {
-  margin-top: 20px;
+  margin-top: auto;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 3px;
 }
 
-input[type="text"] {
+.note[type="text"] {
   padding: 5px;
   overflow: scroll;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box; /* Assicura che il padding non aumenti la dimensione totale dell'input */
-  width: auto; /* Imposta la larghezza dell'input in base al testo inserito */
-  min-width: 50px; /* Imposta una larghezza minima per l'input */
+  width: 100%; /* Imposta la larghezza dell'input in base al testo inserito */
+  min-width: 100%; /* Imposta una larghezza minima per l'input */
 }
 
     /* Stile personalizzato per la casella di controllo */
-    .checkbox-custom {
+    .checkbox{
       appearance: none; /* Nasconde lo stile predefinito del browser */
       -webkit-appearance: none; /* Per WebKit (Safari/Chrome) */
       -moz-appearance: none; /* Per Firefox */
       width: 20px; /* Imposta la larghezza della casella di controllo */
       height: 20px; /* Imposta l'altezza della casella di controllo */
-      border: 1px solid #999; /* Aggiunge un bordo */
+      border: 1px solid #454a48; /* Aggiunge un bordo */
       border-radius: 4px; /* Arrotonda i bordi */
-      background-color: #fff; /* Colore di sfondo */
+      background-color:white; /* Colore di sfondo */
       cursor: pointer; /* Cambia il cursore al passaggio del mouse */
     }
 
     /* Stile per la casella di controllo quando è selezionata */
-    .checkbox-custom:checked {
-      background-color: #007bff; /* Cambia il colore di sfondo quando è selezionata */
-      border-color: #007bff; /* Cambia il colore del bordo quando è selezionata */
+    .checkbox:checked {
+      background-color: #ee6b6e; /* Cambia il colore di sfondo quando è selezionata */
+      border-color: #454a48; /* Cambia il colore del bordo quando è selezionata */
     }
 
     /* Stile per il segno di spunta all'interno della casella di controllo */
-    .checkbox-custom:checked::before {
-      content: '\2713'; /* Codice Unicode per il segno di spunta */
+    .checkbox:checked::before {
+      content: '\0041'; /* Codice Unicode per il segno di spunta */
       display: block;
       text-align: center;
-      color: #fff; /* Colore del segno di spunta */
-    }
-
-    /* Nasconde l'input originale */
-    .checkbox-original {
-      display: none;
+      color:#f0f8ff; /* Colore del segno di spunta */
     }

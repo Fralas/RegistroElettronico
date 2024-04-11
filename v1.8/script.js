@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if (username === 'insegnante' && password === 'insegnante') {
+    if (username === 'insegnante' || 'simone.giuliani@sarrocchi.it' && password === 'insegnante' || 'GiulianTheBest') {
       window.location.href = 'registro.html';
     } else {
       alert('Username or password is incorrect.');
@@ -69,5 +69,3 @@ function updateButtonLabel() {
 $(document).ready(function(){
   updateDisplay();
 });
-
-
